@@ -219,5 +219,11 @@ nav ul li {
     font-size: .6rem;
 }
 
+.projectBox {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+
 }
 
