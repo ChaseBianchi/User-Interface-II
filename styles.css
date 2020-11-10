@@ -164,7 +164,18 @@ footer {
 /* Project 2 */
 
 @media (max-width: 800px) {
-
+.mainBox {
+    width: 600px;
+    height: 450px;
+}
+.projectBox {
+    width: 150px;
+    height: 150px;
+}
+#pimg {
+    height: 150px;
+    width: 150px;
+    background-color: #1e1e49;
 }
 
 @media (max-width: 500px) {
