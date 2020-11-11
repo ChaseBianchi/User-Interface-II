@@ -160,3 +160,70 @@ footer {
     justify-content: center;
     align-items: center;
 } */
+
+/* Project 2 */
+
+@media (max-width: 800px) {
+.mainBox {
+    width: 400px;
+    height: auto;
+}
+.projectBox {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+#pimg {
+    height: 150px;
+    width: 150px;
+    background-color: #1e1e49;
+}
+.projectBox .gitlink {
+        height: 25px;
+        width: 25px;
+        float: right;
+    }
+.topBox {
+    height: 250px;
+}
+.topBox h1 {
+    font-size: 3rem;
+}
+.topBox h3 {
+    font-size: 2rem;
+}
+nav ul li {
+    width: 75px;
+    height: 30px;
+    font-size: .8rem;
+}
+}
+
+@media (max-width: 500px) {
+.mainBox {
+    width: 200px;
+}
+.mainBox h1 {
+    font-size: 2rem;
+}
+.mainBox h3 {
+    font-size: 1.5rem;
+}
+.topBox {
+    min-width: 200px;
+}
+nav ul li {
+    width: 50px;
+    height: 20px;
+    font-size: .6rem;
+}
+
+.projectBox {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+
+}
+
