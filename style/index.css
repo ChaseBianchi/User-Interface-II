@@ -49,6 +49,8 @@ table {
 
 /* end reset */
 
+
+
 header {
     display: flex;
     flex-flow: column nowrap;
@@ -72,7 +74,7 @@ li {
     align-items: center;
     width: 100px;
     height: 40px;
-    border: 2px solid black;
+    border: 2px solid rgb(3, 0, 46);
     border-left: 1px solid black;
     border-right: 1px solid black;
     font-size: 1.5rem;
@@ -80,7 +82,7 @@ li {
 
 h1 {
     font-size: 3rem;
-    margin: 2%;
+    margin: 4% 2% 2% 2%;
 }
 
 h2 {
@@ -109,7 +111,7 @@ header p {
     margin: 1%;
     height: 450px;
     display: flex;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     flex-flow: row wrap;
     align-items: center;
 }
@@ -117,17 +119,22 @@ header p {
 .pBox {
     width: 15%;
     height: 75%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     flex-grow: 1;
     margin: 1%;
+    background-image: url("/assets/p1banner.jpg")
 }
 
 .description {
-    width: 15%;
-    height: 75%;
-    border: 1px solid blue;
+    width: 11%;
+    height: 70%;
+    /* border: 1px solid blue; */
     flex-grow: 1;
     margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
 
 .pBox:hover {
