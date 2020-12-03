@@ -191,5 +191,5 @@ footer .contact a {
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-items: center;
+    align-items: center;
 }
