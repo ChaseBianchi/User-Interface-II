@@ -103,3 +103,34 @@ header p {
     background-image: url("/assets/banner.jpg");
     background-repeat: repeat;
 }
+
+.pContainer {
+    width: 98%;
+    margin: 1%;
+    height: 450px;
+    display: flex;
+    border: 1px solid orange;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.pBox {
+    width: 15%;
+    height: 75%;
+    border: 1px solid blue;
+    flex-grow: 1;
+    margin: 1%;
+}
+
+.description {
+    width: 15%;
+    height: 75%;
+    border: 1px solid blue;
+    flex-grow: 1;
+    margin: 1%;
+}
+
+.pBox:hover {
+    flex-grow: 6;
+    height: 95%;
+}
