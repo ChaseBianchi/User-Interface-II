@@ -53,6 +53,7 @@ header {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 ul {
@@ -62,6 +63,7 @@ ul {
     height: 50px;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid blue; */
 }
 
 li {
@@ -78,4 +80,26 @@ li {
 
 h1 {
     font-size: 3rem;
+    margin: 2%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 2%;
+}
+
+header p {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.banner {
+    width: 98%;
+    height: 200px;
+    margin: 1%;
+    background-color: gray;
+    /* border: 5px dotted red; */
+    background-image: url("/assets/banner.jpg");
+    background-repeat: repeat;
 }
