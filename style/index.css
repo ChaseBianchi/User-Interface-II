@@ -280,4 +280,15 @@ footer .contact a {
     .contactBox {
         height: 780px;
     }
+    nav{
+        height:120px;
+        margin: 5% 0;
+    }
+    ul {
+        flex-direction: column;
+        height: 120px;
+    }
+    nav ul li {
+        width: 60%;
+    }
 }
