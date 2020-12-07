@@ -142,39 +142,45 @@ header p {
 .pContainer {
     width: 98%;
     margin: 1%;
-    height: 450px;
     display: flex;
     /* border: 1px solid orange; */
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     max-width: 1200px;
 }
 
 .pBox {
-    width: 15%;
-    height: 75%;
+    width: 200px;
+    height: 300px;
     /* border: 1px solid blue; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
     margin: 1%;
     background-image: url("/assets/p1banner.jpg");
     opacity: 0.7;
 }
+/* .p1,.p2,.p3,.p4 {
+    flex-grow: 1;
+} */
 
 .description {
-    width: 11%;
-    height: 70%;
+    /* width: 11%;
+    height: 70%; */
     /* border: 1px solid blue; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
     margin: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1%;
+    padding: 2%;
+    background-image: none;
+    background-color: rgb(5, 5, 5, 0.8);
 }
 
-.pBox:hover {
-    flex-grow: 6;
-    height: 95%;
+.p1:hover,.p2:hover,.p3:hover,.p4:hover {
+    /* flex-grow: 6; */
+    height: 375px;
+    width: 250px;
     opacity: 1;
 }
 
